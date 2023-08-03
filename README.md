@@ -1,4 +1,7 @@
-https://colab.research.google.com/drive/10x7cG7Z3vHv0Az5sxn5XQ_L3gc3H8ew5?authuser=1#scrollTo=3YddfMp-DpQK
+<a target="_blank" href="https://colab.research.google.com/github/DelaramRajaei/Naive_Bayes_for_Polarity_Analysis/blob/main/Project_Statistical.ipynb">
+  <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
+</a>
+
 # Naive_Bayes_for_Polarity_Analysis
 
 This work presents a survey of a comparative study between Multinomial and Bernoulli Naïve Bayes algorithms for text classification, with a focus on news polarity analysis.
@@ -14,17 +17,26 @@ Let us define a news classification problem as follows: Given a set of news arti
 In this project, we leverage the power of three distinct datasets to drive our analysis and research. Each dataset contributes unique perspectives and valuable insights, enhancing the depth and scope of our work. The first dataset comprises movie reviews. The second dataset is centered around news articles. In addition to these datasets, we have generated our own synthetic dataset specifically designed for sentiment analysis and text classification.
 
 ### Plot of the News Article dataset
-![News_article](https://github.com/DelaramRajaei/Naive_Bayes_for_Polarity_Analysis/assets/48606206/1b5645cd-c386-4e67-8320-0904e4a7aaf5)
+![News_article](https://github.com/DelaramRajaei/Naive_Bayes_for_Polarity_Analysis/assets/48606206/5a52eb54-a045-4461-8491-600dc4a4cd36)
 
 ### Plot of the Movie Review dataset
-![Movie_review](https://github.com/DelaramRajaei/Naive_Bayes_for_Polarity_Analysis/assets/48606206/9989f260-a2ec-41d9-b708-3f8684378239)
+![Movie_review](https://github.com/DelaramRajaei/Naive_Bayes_for_Polarity_Analysis/assets/48606206/8e503637-79f0-4c50-8e85-e8a224f69bfd)
+
+### Plot of the Fake Generated dataset
+![FakeDataset](https://github.com/DelaramRajaei/Naive_Bayes_for_Polarity_Analysis/assets/48606206/89625b46-cb2c-4cdd-9f81-0c2f008e5255)
+
 
 # Results
 For this project, we employ two distinct models, namely the Multinomial model and the Bernoulli model, to analyze three different datasets. The choice between these models for polarity analysis is contingent upon the specific attributes of the data and the requirements of the sentiment analysis task being conducted. Upon analyzing the results, we find that both models yield comparable accuracy levels. The Bernoulli model, in particular, slightly outperforms the Multinomial model across the board. However, the differences in performance are relatively subtle. Overall, both models demonstrate effective capabilities in predicting sentiment polarity within the datasets.
 
 ### Comparing two models for Movie Review dataset
-![movie_compare](https://github.com/DelaramRajaei/Naive_Bayes_for_Polarity_Analysis/assets/48606206/df83958e-4f84-4776-9cda-31394b25091d)
+![movie_compare](https://github.com/DelaramRajaei/Naive_Bayes_for_Polarity_Analysis/assets/48606206/2fe77679-fafb-48d4-9e66-fc02fef45085)
 
-![Results_movie](https://github.com/DelaramRajaei/Naive_Bayes_for_Polarity_Analysis/assets/48606206/4751268a-10ee-415c-90b4-fa7a0714d271)
+![Results_movie](https://github.com/DelaramRajaei/Naive_Bayes_for_Polarity_Analysis/assets/48606206/ef6c60b2-a126-4f3e-9461-186a717e5d73)
+
+### Comparing two models for News Article dataset
+![news_compare](https://github.com/DelaramRajaei/Naive_Bayes_for_Polarity_Analysis/assets/48606206/ca2a1afa-6a89-401e-9f53-721d92b68723)
+
+![Result_news](https://github.com/DelaramRajaei/Naive_Bayes_for_Polarity_Analysis/assets/48606206/fb3804a6-f958-4df5-9694-eb76ab945a95)
 
 
